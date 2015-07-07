@@ -1,0 +1,227 @@
+html{
+	background-image:url(image/degrade/fond.png);
+	background-repeat:repeat-x;
+	background-side : 100%;
+}
+	
+.bg{
+	background-image:url(image/femme-droite.png);
+	background-repeat:no-repeat;
+	background-position : top right;
+	}
+
+img[name="dressing"]{
+	display:block;
+ 	margin : auto; 
+    width: 1000px;
+    height: 1000px;
+    
+}
+
+img[title="vetement"]{
+	width : 100px;
+	height : 130px;
+	float : left;
+	margin-right : 20px;
+	padding-left : 5px;
+	padding-top : 5px;
+}
+.prix{
+	font-size : 30px;
+}
+
+.facebook{
+	width : 40px;
+	height : 40px;
+	position : fixed;
+	margin-top : 420px;
+}
+
+a[href="pdf/bon-de-commande.pdf"]{
+	text-decoration : none;	
+	color : black;
+}
+
+a[href="pdf/bon-de-commande.pdf"]:hover{
+	color: black;	border-bottom: 1px solid black;
+}
+
+nav{
+	background-image:url(image/degrade/fondmenu.png);
+	background-repeat:repeat-x;
+	
+	border-radius : 10px;
+	padding-left : 10px;
+	width : 200px;
+	float : left;
+	display : block;
+}
+nav h1{
+	font-size : 27px ;
+}
+nav ol{
+	list-style: none;
+}
+
+nav a{
+	text-decoration : none;	
+	color : black;
+}
+
+nav a:hover{
+	color: black;	border-bottom: 1px solid black;
+}
+
+section{
+	background-image:url(image/degrade/fondsection1.png);
+	background-repeat:repeat-x;
+	
+	border-radius : 10px;
+	width : 800px;
+	display:block;
+	margin:auto;
+	display : block;
+	padding-left : 5px ;
+	padding-bottom : 5px ;
+	margin-left : 10px;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+section h2, h3{
+	text-align : center ;
+}
+
+section img{
+	border : 0px;
+	display : block;
+	margin : auto ;
+}
+
+section[class = "tableau"] td, th{
+	border : solid ;
+	border-width : 1px ;
+}
+
+section table {
+	width : 500px ;
+	margin : auto ;
+}
+
+section table + table{
+	width : 500px ;
+	height : 100px;
+	text-align : center ;
+	margin : auto ;
+}
+
+section fieldset{
+	width : 600px;
+	border-radius : 10px;
+	margin-left : auto ;
+	margin-right : auto;
+}
+
+section legend{
+	text-align : center ;
+}
+
+section textarea{
+	width : 300px;
+	height : 100px;
+}
+
+.haut{
+	float:right;
+	width : 30px;
+	height:30px
+}
+
+.email{
+	height : 100%;
+}
+
+.cintre{
+	float:center;
+	margin-top : -95px;
+}
+
+.cintre1{
+	float:right;
+	margin-top : -175px;
+	margin-right : 100px;
+}
+
+.cintre2{
+	float:left;
+	margin-top : -175px;
+	margin-left : 100px;
+}
+
+
+footer a{
+	text-decoration : none ;
+	color : black ;
+}
+
+footer a:hover{
+	border-bottom: 1px solid black;
+}
+
+footer hr{
+	width : 50% ;
+}
+
+.com{
+	font-size : 13px ;
+}
+
+.copy{
+	text-align : center ;
+}
+
+.etoile{
+	color : #9e1803 ;
+}
+
+.dressing{
+	font-weight:bold;
+}
+
+#menuAdmin{
+	text-align : center;
+	font-size : 20px;
+}
+
+#menuAdmin a{
+	text-decoration : none;	
+	color : black;
+}
+
+#menuAdmin ul
+{
+	list-style-type: none;
+}
+#menuAdmin li
+{
+	margin-right: 15px;
+	display: inline-block;
+}
+
+#menuAdmin a:hover{
+	border-bottom: 1px solid black;
+}
+
+#supp{
+	float : right;
+	margin-right : 30px;
+}
+
+#ajout{
+	float : left;
+	margin-left : 30px;
+}
+
+.ajout{
+	width : 300px;
+}
